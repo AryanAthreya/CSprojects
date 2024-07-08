@@ -9,8 +9,11 @@
 }
 html{
     scroll-behavior: smooth;
+    height: -webkit-fill-available;
 }
-
+body{
+    height: -webkit-fill-available;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
