@@ -91,7 +91,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: rgb(146, 217, 195);
+    background:      rgb(146, 217, 195);
 }
 .navbar .max-width{
     display: flex;
@@ -169,7 +169,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3NrOTc5MS1pbWFnZS1rd3Z1amE5Ni5qcGc.jpg") no-repeat center;
+    background: url("NLP.jpg");
+    /* background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3NrOTc5MS1pbWFnZS1rd3Z1amE5Ni5qcGc.jpg") no-repeat center; */
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -264,7 +265,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    /* background: #111; */
 }
 .services .title::before,
 .teams .title::before{
@@ -685,75 +686,8 @@ footer span a:hover{
 
 
 
-/*featured in section*/
-
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .container1 {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    transition: flex .4s ease;
-    position: relative;
-  }
-  
-  .section .overlay {
-    background-color: rgba(87, 81, 81, 0.7);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: background-color .8s ease;
-  }
-  
-  .section .content {
-    z-index: 2;
-  }
-  
-  .section:hover {
-    flex: 2;
-  }
-  
-  .section:hover .overlay {
-    background-color: rgba(0, 0, 0, 0.55);
-  }
-  
-  #marketing {
-    background-image: url('d58b5980085e3af3858978ba1b54711b_1200_80.webp');
-}
-
-  
-  
-  #technology {
-    background-image: url('c9e17da18e7e67098cd903785b3ed493_1200_80.webp');
-  }
-  
-  #advertising {
-    background-image: url('0ee6c49ba063b42150a8c17cc286c72b_1200_80.webp');
-  }
-
-
-
-
 /*My journey infinite grid*/
+
   infinite{
     display: flex;
     flex-direction: row;
@@ -768,7 +702,9 @@ footer span a:hover{
     width: 100%;
     height: 100%;
     max-height: 750px;
-    background-image: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/infinite-photo-grid/photo-grid.jpg);
+    background-image:url(collagePortfolio3.jpg) ;
+    /* background-image: url(https://raw.githubusercontent.com/s1mpson/-/master/codepen/infinite-photo-grid/photo-grid.jpg); */
+    /* 1033 x 213 */
     background-size: calc(4.84 * min(100vh, 750px)) min(100vh, 750px);
     background-repeat: repeat-x;
     animation: scroll 50s linear infinite;
@@ -826,7 +762,7 @@ footer span a:hover{
   
   .wrap {
     display: flex;
-    justify: space-between;
+    justify-content: space-between;
     align-items: stretch;
     width: 100%;
     gap: 24px;
@@ -1117,3 +1053,52 @@ button[type="submit"]:hover {
 body.vsc-initialized::before{
     height: 0;
 }
+#contact.contact{
+    padding: 0%;
+}
+/* watsapp join button */
+  #mainButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #mainButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #splitButtons {
+    margin-top: 20px;
+  }
+  
+  .split-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #28a745;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .split-button:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 600px) {
+    #mainButton, .split-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }

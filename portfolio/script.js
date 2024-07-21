@@ -71,3 +71,9 @@ $(document).ready(function(){
         }
     });
 });
+
+//watsapp button
+document.getElementById('mainButton').addEventListener('click', function() {
+    document.getElementById('mainButton').classList.add('hidden');
+    document.getElementById('splitButtons').classList.remove('hidden');
+  });
